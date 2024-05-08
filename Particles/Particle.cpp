@@ -233,7 +233,7 @@ void Particle::draw(RenderTarget& target, RenderStates states) const
     }
     else
     {
-        VertexArray lines(TrianglesFan, m_numPoints + 1);
+        VertexArray lines(TriangleStrip, m_numPoints + 1);
 
         Vector2f center = (Vector2f)target.mapCoordsToPixel(m_centerCoordinate, m_cartesianPlane); ///POSSIBLE FIX
         lines[0].position = center;
