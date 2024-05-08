@@ -259,7 +259,7 @@ void Particle::draw(RenderTarget& target, RenderStates states) const
 
             if (switch_c <= 2)
             {
-                lines[j].color = Color::Blue;
+                lines[j].color = Color::Cyan;
                 switch_c++;
             }
             else
