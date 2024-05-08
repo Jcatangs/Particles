@@ -1,1 +1,47 @@
-﻿
+﻿  Particle.cpp
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.h(12,21): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(155,58): warning C4305: 'argument': truncation from 'double' to '_Ty'
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(155,58): warning C4305:         with
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(155,58): warning C4305:         [
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(155,58): warning C4305:             _Ty=float
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(155,58): warning C4305:         ]
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(160,52): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(163,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(163,46): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(163,46): warning C4244:         with
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(163,46): warning C4244:         [
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(163,46): warning C4244:             T=unsigned int
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(163,46): warning C4244:         ]
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(176,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(180,17): warning C4244: 'initializing': conversion from 'std::random_device::result_type' to 'float', possible loss of data
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(213,27): warning C4244: '=': conversion from 'const double' to 'T', possible loss of data
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(213,27): warning C4244:         with
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(213,27): warning C4244:         [
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(213,27): warning C4244:             T=float
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(213,27): warning C4244:         ]
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(214,27): warning C4244: '=': conversion from 'const double' to 'T', possible loss of data
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(214,27): warning C4244:         with
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(214,27): warning C4244:         [
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(214,27): warning C4244:             T=float
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(214,27): warning C4244:         ]
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(254,27): warning C4244: '=': conversion from 'const double' to 'T', possible loss of data
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(254,27): warning C4244:         with
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(254,27): warning C4244:         [
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(254,27): warning C4244:             T=float
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(254,27): warning C4244:         ]
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(255,27): warning C4244: '=': conversion from 'const double' to 'T', possible loss of data
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(255,27): warning C4244:         with
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(255,27): warning C4244:         [
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(255,27): warning C4244:             T=float
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(255,27): warning C4244:         ]
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(313,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(313,29): warning C4244:         with
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(313,29): warning C4244:         [
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(313,29): warning C4244:             T=float
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(313,29): warning C4244:         ]
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(314,29): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(314,29): warning C4244:         with
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(314,29): warning C4244:         [
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(314,29): warning C4244:             T=float
+C:\Users\jrcat\source\repos\Particles\Particles\Particle.cpp(314,29): warning C4244:         ]
+  Particles.vcxproj -> C:\Users\jrcat\source\repos\Particles\x64\Debug\Particles.exe

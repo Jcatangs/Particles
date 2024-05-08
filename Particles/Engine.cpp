@@ -3,7 +3,7 @@
 #include <SFML/Audio.hpp>
 #include <list>
 
-int switch_ = 1; //Switch for BG Change
+int switch_ = 0; //Switch for BG Change
 
 
 Engine::Engine()
@@ -14,6 +14,28 @@ Engine::Engine()
 void Engine::run()
 {
     Clock local_clock; //TRACK FPS
+
+    ////------------------------------EXTRA CREDIT-----------------------------------------------------
+
+    SoundBuffer warpBuffer;
+    warpBuffer.loadFromFile("flume.wav");
+    Sound warp;
+    warp.setBuffer(warpBuffer);
+
+    Texture textureBackground;
+
+    // Load a graphic into the texture
+    textureBackground.loadFromFile("CrystalShard.png");
+    Sprite spriteBackground;
+
+    // Attach the texture to the sprite
+    spriteBackground.setTexture(textureBackground);
+
+    // Set the spriteBackground to cover the screen
+    spriteBackground.setPosition(0, 0);
+    warp.play();
+
+    ////------------------------------------------------------------------------------------------------
 
     cout << "Starting Particle unit tests..." << endl;
     Particle p(m_Window, 4, { (int)m_Window.getSize().x / 2, (int)m_Window.getSize().y / 2 });
@@ -96,21 +118,24 @@ void Engine::update(float dtAsSeconds)
 
 void Engine::draw() 
 {
-    if (switch_ == 1)
-    {
-        m_Window.clear(Color::White);
-        switch_ = 2;
-    }
-    else if (switch_ == 2)
-    {
-        m_Window.clear(Color::Black);
-        switch_ = 3;
-    }
-    else if (switch_ == 3)
-    {
-        m_Window.clear(Color::Green);
-        switch_ = 1;
-    }
+    //if (switch_ == 1)
+    //{
+    //    m_Window.clear(Color::White);
+    //    switch_ = 2;
+    //}
+    //else if (switch_ == 2)
+    //{
+    //    m_Window.clear(Color::Black);
+    //    switch_ = 3;
+    //}
+    //else if (switch_ == 3)
+    //{
+    //    m_Window.clear(Color::Green);
+    //    switch_ = 1;
+    //}
+    // 
+    // 
+    m_Window.clear();
     ////FOR RANGE
     for (const auto& p : m_particles) //might need to change for USEABILITY
     {

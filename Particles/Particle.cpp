@@ -1,6 +1,7 @@
 #include "Particle.h"
 #include <random>
 
+int switch_c = 0;
 
 
 bool Particle::almostEqual(double a, double b, double eps)
@@ -189,23 +190,88 @@ Particle::Particle(RenderTarget& target, int numPoints, Vector2i mouseClickPosit
 
 void Particle::draw(RenderTarget& target, RenderStates states) const  
 {
-    VertexArray lines(TriangleFan, m_numPoints + 1);
-    Vector2f center = (Vector2f)target.mapCoordsToPixel(m_centerCoordinate, m_cartesianPlane); ///POSSIBLE FIX
-    lines[0].position = center;
-    lines[0].color = m_color1;
- 
-    for (int j = 1; j <= m_numPoints; j++)
+    if (switch_c % 2 == 0)
     {
-        Vector2f coords; ///POSSIBLE FIX
-        coords.x = m_A(0, j - 1);
-        coords.y = m_A(1, j - 1);
+        VertexArray lines(TriangleFan, m_numPoints + 1);
 
-        Vector2f pos = Vector2f{ target.mapCoordsToPixel(coords, m_cartesianPlane) };
-        lines[j].position = pos; 
-        lines[j].color = m_color2;
+        Vector2f center = (Vector2f)target.mapCoordsToPixel(m_centerCoordinate, m_cartesianPlane); ///POSSIBLE FIX
+        lines[0].position = center;
+
+        if (switch_c <= 2)
+        {
+            lines[0].color = m_color1;
+            switch_c++;
+        }
+        else
+        {
+            lines[0].color = m_color2;
+        }
+
+        for (int j = 1; j <= m_numPoints; j++)
+        {
+            Vector2f coords; ///POSSIBLE FIX
+            coords.x = m_A(0, j - 1);
+            coords.y = m_A(1, j - 1);
+
+            Vector2f pos = Vector2f{ target.mapCoordsToPixel(coords, m_cartesianPlane) };
+            lines[j].position = pos;
+
+            if (switch_c <= 2)
+            {
+                lines[j].color = Color::Blue;
+                switch_c++;
+            }
+            else
+            {
+                lines[j].color = Color::Green;
+                switch_c = 0;
+            }
+        }
+        //cout << "OK OK OK" << endl;
+
+        target.draw(lines); ///VIRTUAL DRAW
     }
-   //cout << "OK OK OK" << endl;
-   target.draw(lines); ///VIRTUAL DRAW
+    else
+    {
+        VertexArray lines(TriangleStrip, m_numPoints + 1);
+
+        Vector2f center = (Vector2f)target.mapCoordsToPixel(m_centerCoordinate, m_cartesianPlane); ///POSSIBLE FIX
+        lines[0].position = center;
+
+        if (switch_c <= 2)
+        {
+            lines[0].color = m_color1;
+            switch_c++;
+        }
+        else
+        {
+            lines[0].color = m_color2;
+        }
+
+        for (int j = 1; j <= m_numPoints; j++)
+        {
+            Vector2f coords; ///POSSIBLE FIX
+            coords.x = m_A(0, j - 1);
+            coords.y = m_A(1, j - 1);
+
+            Vector2f pos = Vector2f{ target.mapCoordsToPixel(coords, m_cartesianPlane) };
+            lines[j].position = pos;
+
+            if (switch_c <= 2)
+            {
+                lines[j].color = Color::Blue;
+                switch_c++;
+            }
+            else
+            {
+                lines[j].color = Color::Green;
+                switch_c = 0;
+            }
+        }
+        //cout << "OK OK OK" << endl;
+
+        target.draw(lines);
+    }
 }
 
 void Particle::update(float dt) 
