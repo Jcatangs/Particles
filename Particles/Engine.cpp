@@ -24,15 +24,15 @@ void Engine::run()
 
     Texture textureBackground;
 
-    // Load a graphic into the texture
-    textureBackground.loadFromFile("CrystalShard.png");
-    Sprite spriteBackground;
+    //// Load a graphic into the texture
+    //textureBackground.loadFromFile("CrystalShard.png");
+    //Sprite spriteBackground;
 
-    // Attach the texture to the sprite
-    spriteBackground.setTexture(textureBackground);
+    //// Attach the texture to the sprite
+    //spriteBackground.setTexture(textureBackground);
 
-    // Set the spriteBackground to cover the screen
-    spriteBackground.setPosition(0, 0);
+    //// Set the spriteBackground to cover the screen
+    //spriteBackground.setPosition(0, 0);
     warp.play();
 
     ////------------------------------------------------------------------------------------------------
