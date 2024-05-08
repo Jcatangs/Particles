@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jrcat\\source\\repos\\Particles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA61A877-D912-4418-B0D7-45BB39D810D7}|Particles\\Particles.vcxproj|C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Matrices.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA61A877-D912-4418-B0D7-45BB39D810D7}|Particles\\Particles.vcxproj|solutionrelative:Particles\\Matrices.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA61A877-D912-4418-B0D7-45BB39D810D7}|Particles\\Particles.vcxproj|C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Particle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA61A877-D912-4418-B0D7-45BB39D810D7}|Particles\\Particles.vcxproj|solutionrelative:Particles\\Particle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA61A877-D912-4418-B0D7-45BB39D810D7}|Particles\\Particles.vcxproj|C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Matrices.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA61A877-D912-4418-B0D7-45BB39D810D7}|Particles\\Particles.vcxproj|solutionrelative:Particles\\Matrices.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA61A877-D912-4418-B0D7-45BB39D810D7}|Particles\\Particles.vcxproj|C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA61A877-D912-4418-B0D7-45BB39D810D7}|Particles\\Particles.vcxproj|solutionrelative:Particles\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA61A877-D912-4418-B0D7-45BB39D810D7}|Particles\\Particles.vcxproj|C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA61A877-D912-4418-B0D7-45BB39D810D7}|Particles\\Particles.vcxproj|solutionrelative:Particles\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA61A877-D912-4418-B0D7-45BB39D810D7}|Particles\\Particles.vcxproj|C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Particle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA61A877-D912-4418-B0D7-45BB39D810D7}|Particles\\Particles.vcxproj|solutionrelative:Particles\\Particle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA61A877-D912-4418-B0D7-45BB39D810D7}|Particles\\Particles.vcxproj|C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA61A877-D912-4418-B0D7-45BB39D810D7}|Particles\\Particles.vcxproj|solutionrelative:Particles\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 157,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Matrices.cpp",
+              "DocumentMoniker": "C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Matrices.cpp",
+              "RelativeDocumentMoniker": "Particles\\Matrices.cpp",
+              "ToolTip": "C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Matrices.cpp",
+              "RelativeToolTip": "Particles\\Matrices.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-02T03:38:18.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Particle.h",
+              "DocumentMoniker": "C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Particle.h",
+              "RelativeDocumentMoniker": "Particles\\Particle.h",
+              "ToolTip": "C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Particle.h",
+              "RelativeToolTip": "Particles\\Particle.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-02T03:35:41.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Matrices.h",
+              "DocumentMoniker": "C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Matrices.h",
+              "RelativeDocumentMoniker": "Particles\\Matrices.h",
+              "ToolTip": "C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Matrices.h",
+              "RelativeToolTip": "Particles\\Matrices.h",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAAAFUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-02T03:35:40.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Engine.h",
+              "DocumentMoniker": "C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Engine.h",
+              "RelativeDocumentMoniker": "Particles\\Engine.h",
+              "ToolTip": "C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Engine.h",
+              "RelativeToolTip": "Particles\\Engine.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-02T03:35:37.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\main.cpp",
+              "RelativeDocumentMoniker": "Particles\\main.cpp",
+              "ToolTip": "C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\main.cpp",
+              "RelativeToolTip": "Particles\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-02T03:35:28.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Particle.cpp",
+              "DocumentMoniker": "C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Particle.cpp",
+              "RelativeDocumentMoniker": "Particles\\Particle.cpp",
+              "ToolTip": "C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Particle.cpp",
+              "RelativeToolTip": "Particles\\Particle.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-02T03:35:22.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Engine.cpp",
+              "DocumentMoniker": "C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Engine.cpp",
+              "RelativeDocumentMoniker": "Particles\\Engine.cpp",
+              "ToolTip": "C:\\Users\\jrcat\\source\\repos\\Particles\\Particles\\Engine.cpp",
+              "RelativeToolTip": "Particles\\Engine.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-02T03:59:28.342Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
